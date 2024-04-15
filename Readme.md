@@ -14,18 +14,18 @@ To install foundry you can follow instructions from [documentation](https://book
 
 To run tests you can follow these commands:
 
+Ensure everything is up-to-date:
 ```sh
-// ensure everything is up to date
 foundryup
 ```
 
+Compile code:
 ```sh
-// compile code
 forge compile
 ```
 
+Run tests and check coverage:
 ```sh
-// run tests and check coverage
 forge test
 forge coverage
 ```
