@@ -727,14 +727,4 @@ contract WalletTest is Test {
     fallback() external payable {
         revert TestError();
     }
-
-//    function test_receive() public {
-//        assertEq(address(wallet).balance, 0);
-//        vm.deal(address(this), SUPPLY_VALUE);
-//        vm.expectEmit(true, true, true, true, address(wallet));
-//        emit FundsDeposited(address(this), DEPOSIT_VALUE);
-//        bool sent = payable(address(wallet)).send(DEPOSIT_VALUE);
-//        assertEq(address(wallet).balance, DEPOSIT_VALUE);
-//
-//    }
 }
